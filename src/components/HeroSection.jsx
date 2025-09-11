@@ -35,7 +35,7 @@ export const HeroSection = () => {
               professionnelles.
             </p>
 
-            <img src="src/items/moi.jpg" className="w-55 h-auto opacity-0 animate-fade-in-delay-3 justify-self-center" />
+            <img src="/items/moi.jpg" className="w-55 h-auto opacity-0 animate-fade-in-delay-3 justify-self-center" />
             
           </div>
 

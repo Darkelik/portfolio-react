@@ -37,7 +37,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="../src/items/CV_Frederic_VAZ.pdf"
+                href="/items/CV_Frederic_VAZ.pdf"
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
@@ -54,10 +54,11 @@ export const AboutSection = () => {
                   <Gamepad2 className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Développement de Jeux Vidéos</h4>
-                  <p className="text-muted-foreground">
-                    avec Unity et C#.
-                  </p>
+                  <h4 className="font-semibold text-lg">
+                    {" "}
+                    Développement de Jeux Vidéos
+                  </h4>
+                  <p className="text-muted-foreground">avec Unity et C#.</p>
                 </div>
               </div>
             </div>
@@ -80,7 +81,10 @@ export const AboutSection = () => {
                   <FileCode2 className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Développement Applicatif</h4>
+                  <h4 className="font-semibold text-lg">
+                    {" "}
+                    Développement Applicatif
+                  </h4>
                   <p className="text-muted-foreground">
                     avec Java, Python et SQL.
                   </p>
