@@ -12,7 +12,7 @@ const projects = [
   {
     id: 2,
     title: "Mini-Jeux-Party",
-    description: "Un site qui contient des mini-jeux rapides. (indisponible)",
+    description: "Un site qui contient des mini-jeux rapides.",
     image: "/projects/project2.png",
     tags: ["HTML", "CSS", "PHP", "Web"],
     url: "#",
@@ -59,7 +59,7 @@ function renderUrl(props) {
       <div className="flex justify-between items-center">
         <div className="flex space-x-3">
           <a
-            href="{project.url}"
+            href={props}
             target="_blank"
             className="text-foreground/80 hover:text-primary transition-colors duration-300"
           >
