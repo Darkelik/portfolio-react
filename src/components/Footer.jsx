@@ -6,16 +6,6 @@ export const Footer = () => {
       <p className="text-sm text-muted-foreground pr-5">
         {" "}
         &copy; {new Date().getFullYear()}, tous droits réservés.
-        <br />
-        Site créé grâce à PedroTech.
-        <a
-          href="https://www.youtube.com/watch?v=ifOJ0R5UQOc"
-          target="_blank"
-          className="text-primary text-sm text-muted-foreground"
-        >
-          {" "}
-          Tutoriel{" "}
-        </a>
       </p>
 
       <a
