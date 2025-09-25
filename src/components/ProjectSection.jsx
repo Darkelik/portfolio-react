@@ -1,3 +1,4 @@
+import { useRef, useEffect, useState } from "react";
 import { ArrowRight, ExternalLink } from "lucide-react";
 
 const projects = [
@@ -72,8 +73,33 @@ function renderUrl(props) {
 }
 
 export const ProjectSection = () => {
+  const sectionRef = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section
+      ref={sectionRef}
+      id="projects"
+      className={`py-24 px-4 relative transition-opacity duration-1000 ${
+        visible ? "opacity-100" : "opacity-0"
+      }`}
+    >
       <div className="container mx-auto max-w-5tl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Mes <span className="text-primary"> Projets</span>
@@ -132,7 +158,7 @@ export const ProjectSection = () => {
             target="_blank"
             href="https://darkelik.itch.io/"
           >
-            Mon Itch <ArrowRight size={16} />
+            Mon Itch.io <ArrowRight size={16} />
           </a>
         </div>
       </div>

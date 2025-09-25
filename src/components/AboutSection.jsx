@@ -1,8 +1,34 @@
+import { useRef, useEffect, useState } from "react";
 import { Code, Gamepad2, FileCode2 } from "lucide-react";
 
 export const AboutSection = () => {
+  const sectionRef = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section id="about" className="py-24 px-4 relative">
+    <section
+      ref={sectionRef}
+      id="about"
+      className={`py-24 px-4 relative transition-opacity duration-1000 ${
+        visible ? "opacity-100" : "opacity-0"
+      }`}
+    >
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           À propos de <span className="text-primary"> Moi</span>

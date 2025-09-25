@@ -5,16 +5,16 @@ export const Footer = () => {
     <footer className="py-12 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap justify-center items-center">
       <p className="text-sm text-muted-foreground pr-5">
         {" "}
-        &copy; {new Date().getFullYear()}, tous droits réservés. Site créé grâce
-        à PedroTech.
+        &copy; {new Date().getFullYear()}, tous droits réservés.
+        <br />
+        Site créé grâce à PedroTech.
         <a
           href="https://www.youtube.com/watch?v=ifOJ0R5UQOc"
           target="_blank"
           className="text-primary text-sm text-muted-foreground"
         >
           {" "}
-          Tutoriel
-          {" "}
+          Tutoriel{" "}
         </a>
       </p>
 
