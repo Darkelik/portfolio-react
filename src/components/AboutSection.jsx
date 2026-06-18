@@ -41,7 +41,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              J'ai toujours été passionné par la technologie et la création.
+              J'ai toujours été passionné par la technologie et la création numérique.
               Depuis mon plus jeune âge, j'ai exploré divers langages de
               programmation et outils de développement, ce qui m'a permis
               d'acquérir une solide base en développement web et en création de

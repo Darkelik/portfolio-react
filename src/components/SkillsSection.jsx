@@ -22,7 +22,8 @@ const skills = [
   },
 
   { name: "SQL", level: 75, category: "Backend", logo: "/items/logos/sql.png" },
-  { name: "JS", level: 50, category: "Backend", logo: "/items/logos/js.png" },
+  { name: "JavaScript", level: 50, category: "Backend", logo: "/items/logos/js.png" },
+  { name: "TypeScript", level: 50, category: "Backend", logo: "/items/logos/ts.png" },
   { name: "PHP", level: 50, category: "Backend", logo: "/items/logos/php.png" },
 
   {
@@ -31,7 +32,7 @@ const skills = [
     category: "App",
     logo: "/items/logos/python.png",
   },
-  { name: "Java", level: 75, category: "App", logo: "/items/logos/java.svg" },
+  { name: "Java", level: 50, category: "App", logo: "/items/logos/java.svg" },
   { name: "C#", level: 50, category: "App", logo: "/items/logos/cs.png" },
   { name: "C", level: 25, category: "App", logo: "/items/logos/c.png" },
   { name: "C++", level: 25, category: "App", logo: "/items/logos/c++.png" },
@@ -50,6 +51,7 @@ const skills = [
     category: "Outils",
     logo: "/items/logos/unity.png",
   },
+  { name: "Jupyter", level: 50, category: "App", logo: "/items/logos/jupyter.png" },
   { name: "Godot", level: 25, category: "App", logo: "/items/logos/godot.png" },
 
   {

@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="py-12 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap justify-center items-center">
       <p className="text-sm text-muted-foreground pr-5">
         {" "}
-        &copy; {new Date().getFullYear()}, tous droits réservés.
+        &copy; {new Date().getFullYear()}. Tous droits réservés.
       </p>
 
       <a
