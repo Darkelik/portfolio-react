@@ -27,9 +27,10 @@ export const HeroSection = () => {
             <p className="text-lg text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3 items-center">
               Aussi connu sous le surnom de{" "}
               <span className="text-primary font-semibold">Darkelik</span>, je suis un
-              étudiant en informatique passionné par le développement web et la
-              création de projets innovants. Diagnostiqué TDA par un
-              psychiatre, cela ne m'empêche pas d'être déterminé dans mes
+              développeur informatique passionné par la conception et la
+              création numérique de projets innovants. Je suis également amateur de TCG,
+              de Jeu de Rôle, de Dessin et de tennis. Diagnostiqué TDA par un
+              psychiatre et titulaire de la RQTH, cela ne m'empêche pas d'être déterminé dans mes
               projets et poursuivre mes études. Bienvenue sur mon portfolio où
               je partage mes réalisations, compétences et aspirations
               professionnelles.

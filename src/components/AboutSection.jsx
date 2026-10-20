@@ -49,11 +49,10 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-              Actuellement étudiant en informatique, je continue de développer
-              mes compétences et de travailler sur des projets personnels. Mon
-              objectif est de créer des expériences numériques innovantes et
-              engageantes, que ce soit à travers des sites web interactifs ou
-              des jeux captivants.
+              Actuellement à la recherche d'une alternance en informatique pour la rentrée en 2027,
+              je continue de développer mes compétences et de travailler sur des projets personnels.
+              Mon objectif est de créer des expériences numériques innovantes et engageantes, que ce
+              soit à travers des sites web interactifs ou des jeux captivants.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -63,7 +62,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/items/CV_Frederic_VAZ.pdf"
+                href="/items/CV_VAZ_Frederic_Informatique.pdf"
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
@@ -84,7 +83,7 @@ export const AboutSection = () => {
                     {" "}
                     Développement de Jeux Vidéos
                   </h4>
-                  <p className="text-muted-foreground">avec Unity et C#.</p>
+                  <p className="text-muted-foreground">avec Unity, C# et Godot.</p>
                 </div>
               </div>
             </div>
@@ -96,7 +95,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Développement Web</h4>
                   <p className="text-muted-foreground">
-                    avec React et HTML/CSS/JS.
+                    avec React, HTML/CSS/JS et PHP.
                   </p>
                 </div>
               </div>
